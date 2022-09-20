@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work sans', sans-serif;
+}
+:root{
+
+    --heading: "rgb(24 24 29)";
+    --text: "rgb(24 24 29)";
+    --white: "#fff";
+    --black: "#212519";
+    --helper: "#8490ff";
+    --bg: "rgb(249 249 255)";
+    --footer_bg: "#0a1435";
+    --btn: "rgb(98 84 243)";
+    --border: "rgba(98, 84, 243, 0.5)";
+    --hr: "#ffffff";
+    --gradient: "linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%)";
+    --shadow: "rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px";
+    --shodowSupport: "rgba(0, 0, 0, 0.16) 0px 1px 4px";
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+h1{
+    color: var(--heading);
+    font-size: 6rem;
+    font-weight: 900;
+}
+h2{
+    color: var(--heading);
+    font-size: 4.4rem;
+    font-weight: 300;
+    white-space:normal;
+    text-align:center 
+}
+h3{
+    font-size:1.8rem;
+    font-weight:400;
+}
+p{
+    color: var(--text);
+    opacity:.7;
+    line-height:1.65rem;
+    margin-top:1rem;
+    font-weight:400;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+
+Header{
+    padding: 0 4.8rem;
+    height: 10rem;
+    background-color: var(--bg);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;  
+}
+Header .logo{
+    font-size:1.6rem;
+    color:black;
+    letter-spacing:.5rem;
+}
+.navbar-list{
+    display:flex;
+    gap:4.6rem;
+}    
+.navbar-list li{
+     list-style:none;
+}     
+
+        
